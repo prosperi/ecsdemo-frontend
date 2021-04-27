@@ -30,6 +30,7 @@ exec: true     # Enable running commands in your container.
 #
 variables:                    # Pass environment variables as key value pairs.
   REGION: $(echo $AWS_REGION)
+  AWS_DEFAULT_REGION: $(echo $AWS_REGION)
   CRYSTAL_URL: "http://ecsdemo-crystal.ecsworkshop.local:3000/crystal"
   NODEJS_URL: "http://ecsdemo-nodejs.ecsworkshop.local:3000"
 
