@@ -31,8 +31,8 @@ exec: true     # Enable running commands in your container.
 variables:                    # Pass environment variables as key value pairs.
   REGION: "us-west-2"
   AWS_DEFAULT_REGION: "us-west-2"
-  CRYSTAL_URL: "http://ecsdemo-crystal.ecsworkshop.local:3000/crystal"
-  NODEJS_URL: "http://ecsdemo-nodejs.ecsworkshop.local:3000"
+  CRYSTAL_URL: "http://crystal.demo.local:3000/crystal"
+  NODEJS_URL: "http://backend.demo.local:3000"
 
 #secrets:                      # Pass secrets from AWS Systems Manager (SSM) Parameter Store.
 #  GITHUB_TOKEN: GITHUB_TOKEN  # The key is the name of the environment variable, the value is the name of the SSM parameter.
